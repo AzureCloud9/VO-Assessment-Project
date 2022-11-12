@@ -1,11 +1,11 @@
 @font-face {
     font-family:"Mark Pro Regular";
-    src: url(/fonts/Mark\ Pro.ttf);
+    src: url(./fonts/Mark\ Pro.ttf);
 }
 
 @font-face {
     font-family:"Mark bold Regular";
-    src: url(/fonts/Mark\ Pro\ Bold.ttf);
+    src: url(./fonts/Mark\ Pro\ Bold.ttf);
 }
 :root {
     --headerBG: #003CFB;
@@ -107,7 +107,7 @@
     display: flex;
     justify-content: center;
     background-color: var(--bodyBG);
-    height: 650px;
+    height: 703px;
     
 }
 
@@ -295,12 +295,13 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 570px;    
+    top: 765px;
     color: var(--whiteFont);
     background-color: #003CFB;
     width: 65px;
     height: 65px;
     border-radius: 50px;
+    
 }
 
 
