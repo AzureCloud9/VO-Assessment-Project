@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
 @font-face {
     font-family:"Mark Pro Regular";
     src: url(./fonts/Mark\ Pro.ttf);
@@ -56,7 +58,7 @@
 }
 
 .greeting-info > h1 {
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular", 'Maven Pro';
     font-size: 22px;
     letter-spacing: 0.55px;
     line-height: 28px;
@@ -66,7 +68,7 @@
 
 .greeting-info > p {
     color: rgba(255,255,255,0.8);
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular", 'Maven Pro';
     font-size: 14px;
     letter-spacing: 0.35px;
     line-height: 20px;
@@ -179,7 +181,7 @@
 }
 
 .content-title {
-    font-family:"Mark bold Regular";
+    font-family:"Mark bold Regular", 'Maven Pro';
     font-size: 16px;
     font-weight: bold;
     letter-spacing: 0.4px;
@@ -198,7 +200,7 @@
 
 .content-info {
     color: var(--contentTextDate);
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular", 'Maven Pro';
     font-size: 14px;
     letter-spacing: 0.35px;
     line-height: 22px;
@@ -214,7 +216,7 @@
 .content-date {
     display: flex;
     color: var(--contentTextDate);
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular",'Maven Pro';
     font-size: 12px;
     letter-spacing: 0.3px;
 }
@@ -252,7 +254,7 @@
     top: 47px;
     left: 164px;
     background: white;
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular", 'Maven Pro';
     width: 154px;
     height: 82px;
     border: 1px solid #E1E1E1;
@@ -266,7 +268,7 @@
     flex-grow: 1;  
     align-items: center;
     color: var(--optionText);
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular",'Maven Pro';
     font-size: 12px;
     letter-spacing: 0.3px;
     line-height: 15px;
@@ -278,7 +280,7 @@
     flex-grow: 1;
     align-items: center;
     color: var(--optionText);
-    font-family: "Mark Pro Regular";
+    font-family: "Mark Pro Regular",'Maven Pro' ;
     font-size: 12px;
     letter-spacing: 0.3px;
     line-height: 15px;
@@ -301,6 +303,7 @@
     width: 65px;
     height: 65px;
     border-radius: 50px;
+    font-size: 35px;
     
 }
 
