@@ -1,0 +1,228 @@
+@font-face {
+    font-family:"Mark Pro Regular";
+    src: url(/fonts/Mark\ Pro.ttf);
+}
+
+@font-face {
+    font-family:"Mark bold Regular";
+    src: url(/fonts/Mark\ Pro\ Bold.ttf);
+}
+:root {
+    --headerBG: #003CFB;
+    --bodyBG: #E0E0E0;
+    --whiteFont: #FFFFFF;
+    --listButtonMain: #989898;
+    --contentTitle:#000000;
+    --contentTextDate:#595959;
+    --listError:#E43F28;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-layout {
+    display: grid;
+    grid-template-rows: 257px auto;
+    width: 100vw;
+}
+
+.header-section {  
+    background-color: var(--headerBG);
+}
+
+.header-rows {
+    display: flex;
+    flex-direction: row;
+    margin-left: 27px;
+    margin-bottom: 18px;
+    width: 333px;
+}
+
+.greeting-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--whiteFont);
+    margin-top: 65.6px;
+    width: 222px;
+    
+}
+
+.greeting-info > h1 {
+    font-family: "Mark Pro Regular";
+    font-size: 22px;
+    letter-spacing: 0.55px;
+    line-height: 28px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.greeting-info > p {
+    color: rgba(255,255,255,0.8);
+    font-family: "Mark Pro Regular";
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 20px;
+
+}
+
+/* Bolding Username */
+.usernameBold {
+    font-weight: bold;
+    color: var(--whiteFont);
+
+}
+
+.reminderBoldLine {
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+
+.notification-pfp {
+    display: flex;
+    margin-top:62px;
+    margin-left: 23px;
+}
+
+.notification {
+    margin-top: 11px;
+    margin-right: 25px;
+}
+
+.profile-img > img {
+    border-radius: 25px;
+    border: 2.5px solid var(--bodyBG) ;
+}
+
+
+.body-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bodyBG);
+    
+}
+
+.todo-list { 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+    width: 369px;
+    height: 743px;
+    position: absolute;
+    top: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.list {
+    display: flex;
+    border: 2px solid #989898;
+    width: 335px;
+    height: 166px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+
+.list-main {
+    margin-top: 20px;
+}
+
+.list-error {
+    border: 2px solid #E43F28;
+}
+
+
+
+.list-button {
+    width: 17.44px;
+    height: 17.44px;
+    margin-top: 22.53px;
+    margin-left: 19.28px;
+    margin-right: 20.28px;
+    border-radius: 25px;
+    border: 2px solid #989898 ;
+}
+
+.list-button-error {
+    border: 2px solid #E43F28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-button-correct {
+    border: 2px solid #02C758;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25.8px;
+}
+
+.content-title {
+    font-family:"Mark bold Regular";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    color: var(--contentTitle);
+    margin-bottom: 7px;
+}
+
+.content-title-error {
+    color: var(--listError) ;
+}
+
+.content-info {
+    color: var(--contentTextDate);
+    font-family: "Mark Pro Regular";
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+
+.content-date {
+    display: flex;
+    color: var(--contentTextDate);
+    font-family: "Mark Pro Regular";
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+}
+
+.content-date > svg {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    margin-top: 2px;
+}
+
+
+.options {
+    margin-top: 21px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
