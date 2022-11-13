@@ -21,7 +21,6 @@
     --correctText:#AAAAAA;
     --optionBox: #E1E1E1;
     --optionText: #4B4B4B;
-
 }
 
 * {
@@ -53,8 +52,7 @@
     flex-direction: column;
     color: var(--whiteFont);
     margin-top: 65.6px;
-    width: 222px;
-    
+    width: 222px; 
 }
 
 .greeting-info > h1 {
@@ -72,7 +70,6 @@
     font-size: 14px;
     letter-spacing: 0.35px;
     line-height: 20px;
-
 }
 
 /* Bolding Username */
@@ -110,8 +107,6 @@
     justify-content: center;
     background-color: var(--bodyBG);
     height: 730px;
-    
-    
 }
 
 .todo-list { 
@@ -119,7 +114,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background: white;
+    background: var(--whiteFont);
     width: 369px;
     height: 802px;
     position: absolute;
@@ -132,13 +127,11 @@
 .list {
     display: flex;
     position: relative;
-    border: 2px solid #989898;
+    border: 2px solid #E0E0E0;
     width: 335px;
     height: 166px;
     border-radius: 5px;
     margin-bottom: 25px;
-
-
 }
 
 .list-main {
@@ -148,7 +141,6 @@
 .list-error {
     border: 2px solid #E43F28;
 }
-
 
 
 .list-button {
@@ -206,8 +198,6 @@
     letter-spacing: 0.35px;
     line-height: 22px;
     margin-bottom: 10px;
-    
-
 }
 
 .content-date {
@@ -240,7 +230,6 @@
 .options > svg {
     position: absolute;
     left: 307px;
-
 }
 
 .show-options {
@@ -257,7 +246,6 @@
     border: 1px solid #E1E1E1;
     border-radius: 5px;
     box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
-
 }
 
 .option-edit {
