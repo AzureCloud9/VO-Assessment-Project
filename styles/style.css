@@ -121,7 +121,7 @@
     align-items: center;
     background: white;
     width: 369px;
-    height: 743px;
+    height: 802px;
     position: absolute;
     top: 155px;
     border-radius: 10px;
@@ -210,13 +210,9 @@
 
 }
 
-.content-info-correct {
-    color:#AAAAAA;
-}
-
 .content-date {
     display: flex;
-    color: var(--contentTextDate);
+    color: var(--correctText);
     font-family: "Mark Pro Regular",'Maven Pro';
     font-size: 12px;
     letter-spacing: 0.3px;
@@ -298,7 +294,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 529px;
+    top: 740px;
     color: var(--whiteFont);
     background-color: #003CFB;
     width: 65px;
