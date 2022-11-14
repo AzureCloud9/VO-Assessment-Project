@@ -9,6 +9,7 @@
     font-family:"Mark bold Regular";
     src: url(./fonts/Mark\ Pro\ Bold.ttf);
 }
+
 :root {
     --headerBG: #003CFB;
     --bodyBG: #E0E0E0;
@@ -291,6 +292,8 @@
     font-size: 35px;
     box-shadow: 0 10px 15px 0 rgba(0,0,0,0.2);
 }
+
+
 
 
 

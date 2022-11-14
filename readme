@@ -3,15 +3,16 @@ Assessment: Van Ons Todo-list.
 
 Design was mobile only, used iphone 12 pro as reference: "https://prnt.sc/MimGVsfyX-M-".
 
-Made with html, css only, instructed by Robert van E, during the interview to only use html,css since i dont know react yet. so no javascript/react only html,css.
+Made with html, css only, instructed by Robert, during the interview to only use html and css since i dont know react yet.
+so i couldn't add the second "TODO-ADD" since there's no functionality.
 
-added substitute font so if the main font dont work, the replacement will take over.
+Added substitute font so if the main font dont work, the replacement will take over.
 
-all images/svg's arent the same, reason is because i couldn't find a way to download the original images from InvisionApp.
-
-hope my coding style is readable
+All images/svg's arent the same, reason is because i couldn't find a way to download the original images from InvisionApp.
 
 
+Hope my coding style is readable, 
+coded with <3 by Marley.
 
 
 
